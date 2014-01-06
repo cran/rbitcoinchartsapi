@@ -17,6 +17,18 @@ services in Bitcoins -- this will yield much lower fluctuations than using
 a single market's latest price.
 }
 \examples{
-weightedPrices <- GetWeightedPrices ()
+tryCatch(
+     weightedPrices <- GetWeightedPrices (),
+     Throwable =
+         function (e) {
+             print (
+                 paste (
+                     "An exception was thrown -- details follow.",
+                     e$getMessage(),
+                     sep=""
+                 )
+             )
+         }
+     )
 }
 
