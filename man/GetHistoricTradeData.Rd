@@ -32,7 +32,5 @@ params <- list (symbol="btceUSD")
              )
          }
      )
-
- head (historicTradeData)
 }
 
