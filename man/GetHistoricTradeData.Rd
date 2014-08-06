@@ -21,12 +21,12 @@ empty data frame.
 params <- list (symbol="btceUSD")
  tryCatch(
      historicTradeData <- GetHistoricTradeData (params),
-     Throwable =
+     error =
          function (e) {
              print (
                  paste (
-                     "An exception was thrown -- details follow.",
-                     e$getMessage(),
+                     "An exception was thrown -- details follow: ",
+                     e,
                      sep=""
                  )
              )

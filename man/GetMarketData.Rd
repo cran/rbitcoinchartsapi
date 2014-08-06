@@ -15,12 +15,12 @@ General market data can be accessed \href{http://api.bitcoincharts.com/v1/market
 params <- list (currency="USD")
  tryCatch(
      usd <- GetMarketData (params),
-     Throwable =
+     error =
          function (e) {
              print (
                  paste (
-                     "An exception was thrown -- details follow.",
-                     e$getMessage(),
+                     "An exception was thrown -- details follow: ",
+                     e,
                      sep=""
                  )
              )

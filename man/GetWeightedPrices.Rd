@@ -19,12 +19,12 @@ a single market's latest price.
 \examples{
 tryCatch(
      weightedPrices <- GetWeightedPrices (),
-     Throwable =
+     error =
          function (e) {
              print (
                  paste (
-                     "An exception was thrown -- details follow.",
-                     e$getMessage(),
+                     "An exception was thrown -- details follow: ",
+                     e,
                      sep=""
                  )
              )
