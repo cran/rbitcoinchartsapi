@@ -1,0 +1,10 @@
+1489d975e42a45d8f372b357f593e9dc *DESCRIPTION
+28b34c20ea39a0f4d44105ee7a3d0c2d *INDEX
+5be4bcbd99e64f595efbebe8d84640ff *NAMESPACE
+444d990441436fc7f7bad3f0e8796993 *NEWS
+d41d8cd98f00b204e9800998ecf8427e *R/rbitcoinchartsapi-internal.R
+260ec52f495a57f03d004628367c8dd6 *R/rbitcoinchartsapi.R
+ee6fd3a89d730fb044de3ad432739b0c *README.md
+59f1205fc6eccebf412f383ff12303bb *man/GetHistoricTradeData.Rd
+e6a9f273f0cb4e50fd5c700de8486ef1 *man/GetMarketData.Rd
+3cf5f82706e6d11425aeacc4626d6374 *man/GetWeightedPrices.Rd
